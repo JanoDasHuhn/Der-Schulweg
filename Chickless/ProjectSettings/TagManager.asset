@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Wall
+  - PlayerBullet
+  - Waschbecken
+  - ZG1
+  - ZG2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - inHand
+  - Player
+  - PlayerBullets
+  - Enemies
+  - EnemieBullets
+  - Breakable
+  - IgnoreBulltets
+  - Pickups
+  - Door
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: ground
+    uniqueID: 3432965619
+    locked: 0
+  - name: Objects
+    uniqueID: 2536503751
+    locked: 0
+  - name: Pickups
+    uniqueID: 2913265447
+    locked: 0
+  - name: Enemy
+    uniqueID: 3315494757
+    locked: 0
+  - name: Bullet
+    uniqueID: 914811669
+    locked: 0
+  - name: Player
+    uniqueID: 3852448911
+    locked: 0
+  - name: New Layer
+    uniqueID: 1080579153
+    locked: 0
