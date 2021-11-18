@@ -36,9 +36,7 @@ public class HerrStumpenhusenAI : MonoBehaviour
 
     private void Update()
     {
-        //Gun ist keine Schuswaffe sondern ein anderes wurfgeschoss
-
-        //Rotation von der "Waffe"
+        
         if (PlayerController.instance.gameObject.transform.position.x > transform.position.x)
         {
 

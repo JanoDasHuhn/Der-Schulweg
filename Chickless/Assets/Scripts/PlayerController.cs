@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
     [HideInInspector]
     public bool canMove = true;
 
-
+    //Aron guck weg
 
     public void Awake()
     {
