@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,6 +16,7 @@ public class UiController : MonoBehaviour
     public float fadeSpeed;
 
     private bool fadeToBlack, fadeOutBlack;
+    public Text quest;
 
     private void Awake()
     {
@@ -24,6 +26,8 @@ public class UiController : MonoBehaviour
     {
         fadeOutBlack = true;
         fadeToBlack = false;
+
+        StartUI();
     }
 
    
@@ -54,6 +58,16 @@ public class UiController : MonoBehaviour
         
 
     }
+    public void StartUI()
+    {
+        quest.gameObject.SetActive(true);
+        StartCoroutine(UICoroutine());
+    }
 
-    
+    private IEnumerator UICoroutine()
+    {
+        yield return new WaitForSeconds(2);
+        quest.gameObject.SetActive(false);
+        quest.text = "";
+    }
 }
