@@ -37,8 +37,12 @@ public class Book : MonoBehaviour
             if (PlayerController.instance.hasBook == false)
             {
                 book.SetActive(true);
-               
 
+
+            }
+            else
+            {
+                book.SetActive(false);
             }
 
 
