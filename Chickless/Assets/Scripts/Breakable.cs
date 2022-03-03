@@ -68,4 +68,28 @@ public class Breakable : MonoBehaviour
             Smash();
         }
     }
+    private void OnTriggerStay2D(Collider2D other)
+    {
+
+
+        if (other.tag == "Player")
+        {
+            if (PlayerController.instance.dashCounter > 0)
+            {
+                Smash();
+
+
+
+            }
+
+        }
+        else if (other.tag == "PlayerBullet")
+        {
+            Smash();
+        }
+        else if (other.tag == "Enemy")
+        {
+            Smash();
+        }
+    }
 }

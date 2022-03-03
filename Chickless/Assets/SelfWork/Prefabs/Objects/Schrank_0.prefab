@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6325663638647776863}
   - component: {fileID: 240954021}
   - component: {fileID: 240954022}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Schrank_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 321684430007618532}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -30.19, y: 8.67, z: 0}
-  m_LocalScale: {x: 8, y: 8, z: 1}
+  m_LocalScale: {x: 0.53333336, y: 0.53333336, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
