@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealthController : MonoBehaviour
 {
     public static PlayerHealthController instance;
+
 
     public int currentHealth;
     public int maxHealth;
@@ -51,9 +53,7 @@ public class PlayerHealthController : MonoBehaviour
             currentHealth--;
             if (currentHealth <= 0)
             {
-                PlayerController.instance.gameObject.SetActive(false);
-                UiController.instance.deathScreen.SetActive(true);
-                AudioManager.instance.PlayGameOver();
+                SceneManager.LoadScene("DeathScreen");
             }
             UiController.instance.healthSlider.value = currentHealth;
             UiController.instance.healthText.text = currentHealth.ToString() + " / " + maxHealth.ToString();

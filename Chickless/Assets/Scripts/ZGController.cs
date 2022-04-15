@@ -5,6 +5,6 @@ using UnityEngine.UI;
 
 public class ZGController : MonoBehaviour
 {
-   
+    public static int zeugnisse = 0;
 
 }

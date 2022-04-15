@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class LevelExit : MonoBehaviour
 {
     public string levelToLoad;
+    
+    public int zeugnissNeed;
 
     
     void Start()
@@ -20,7 +22,7 @@ public class LevelExit : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "Player")
+        if(other.tag == "Player" && Zeugnisse.zeugnisse >= zeugnissNeed)
         {
             //SceneManager.LoadScene(levelToLoad);
             StartCoroutine(LevelManager.instance.LevelEnd());
