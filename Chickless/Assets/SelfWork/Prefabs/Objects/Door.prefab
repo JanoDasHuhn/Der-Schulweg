@@ -102,9 +102,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1758463545
+  m_SortingLayer: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: db750325989564987a34393247d883b4, type: 3}
   m_Color: {r: 0.33962262, g: 0.23837662, b: 0.22745098, a: 1}
   m_FlipX: 0
@@ -152,7 +152,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.5116, y: 0.2340002}
+  m_ConnectedAnchor: {x: 0.5115997, y: 0.2340002}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -231,9 +231,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1758463545
+  m_SortingLayer: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f8ec41de97eed0d4395c22b9f25156ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

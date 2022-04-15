@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
-
+using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
    
@@ -121,6 +121,10 @@ public class PlayerController : MonoBehaviour
                     PlayerHealthController.instance.MakeInvicible(dashInvincibility);
                 }
 
+            }
+            if (Input.GetKeyDown(KeyCode.M))
+            {
+                SceneManager.LoadScene("TitleScreen");
             }
             if (dashCounter > 0)
             {

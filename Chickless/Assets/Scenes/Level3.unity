@@ -47407,11 +47407,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4460289895596611520, guid: 06cb9f61a89c5c94f888ec39de0a4cd1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 53.501457
+      value: 53.35
       objectReference: {fileID: 0}
     - target: {fileID: 4460289895596611520, guid: 06cb9f61a89c5c94f888ec39de0a4cd1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -29.873617
+      value: -29.24
       objectReference: {fileID: 0}
     - target: {fileID: 4460289895596611520, guid: 06cb9f61a89c5c94f888ec39de0a4cd1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -47451,11 +47451,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4460289895969444864, guid: 06cb9f61a89c5c94f888ec39de0a4cd1, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 0.53628284
+      value: 0.5362831
       objectReference: {fileID: 0}
     - target: {fileID: 4460289895969444864, guid: 06cb9f61a89c5c94f888ec39de0a4cd1, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 0.24400073
+      value: 0.24400069
       objectReference: {fileID: 0}
     - target: {fileID: 4460289895969445118, guid: 06cb9f61a89c5c94f888ec39de0a4cd1, type: 3}
       propertyPath: m_SortingLayer
@@ -48174,8 +48174,8 @@ RectTransform:
   m_Father: {fileID: 332834464}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -48688,7 +48688,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 4.3283997, y: 0.29999924}
   m_SizeDelta: {x: -2.7072, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -50634,6 +50634,7 @@ GameObject:
   - component: {fileID: 1370312252}
   - component: {fileID: 1370312254}
   - component: {fileID: 1370312253}
+  - component: {fileID: 1370312255}
   m_Layer: 14
   m_Name: InformatikRaumTischVorne_2
   m_TagString: Untagged
@@ -50668,7 +50669,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.02480328, y: 0.07373947}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -50679,7 +50680,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.37}
+  m_Size: {x: 0.100393444, y: 0.22252107}
   m_EdgeRadius: 0
 --- !u!212 &1370312254
 SpriteRenderer:
@@ -50732,6 +50733,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1370312255
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370312251}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.11127956}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.15, y: 0.37}
+    newSize: {x: 0.15, y: 0.37}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.15, y: 0.14744088}
+  m_EdgeRadius: 0
 --- !u!4 &1375373036 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 185637080505073969, guid: d8c57dd71b4ce0740ac36c73b3a38351, type: 3}
@@ -51190,7 +51217,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Andere Toilette (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7396411112187099881, guid: a41c8e21eedfd3f4dbf6adb8e535682b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a41c8e21eedfd3f4dbf6adb8e535682b, type: 3}
 --- !u!1 &1452030288
 GameObject:
@@ -53045,7 +53073,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1707862593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54452,6 +54480,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3396692908731567168, guid: 2e20c3c61bf45c1418d2020e19225f39, type: 3}
+      propertyPath: zg
+      value: 
+      objectReference: {fileID: 774489921}
+    - target: {fileID: 3396692908731567168, guid: 2e20c3c61bf45c1418d2020e19225f39, type: 3}
+      propertyPath: zgCounter
+      value: 
+      objectReference: {fileID: 958774749}
+    - target: {fileID: 3396692908731567168, guid: 2e20c3c61bf45c1418d2020e19225f39, type: 3}
+      propertyPath: zeugnisseAlready
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3396692908731567172, guid: 2e20c3c61bf45c1418d2020e19225f39, type: 3}
       propertyPath: m_Name
       value: ITem

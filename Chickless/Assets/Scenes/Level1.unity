@@ -55580,6 +55580,10 @@ PrefabInstance:
       propertyPath: zgCounter
       value: 
       objectReference: {fileID: 627658461}
+    - target: {fileID: 3396692908731567168, guid: 2e20c3c61bf45c1418d2020e19225f39, type: 3}
+      propertyPath: zeugnisseAlready
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3396692908731567172, guid: 2e20c3c61bf45c1418d2020e19225f39, type: 3}
       propertyPath: m_Name
       value: ITem
