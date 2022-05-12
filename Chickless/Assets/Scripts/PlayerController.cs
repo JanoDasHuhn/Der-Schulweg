@@ -50,8 +50,11 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         Cam = Camera.main;
-
+        
         activemoveSpeed = MoveSpeed;
+        UnityEngine.Cursor.lockState = CursorLockMode.Locked;
+        UnityEngine.Cursor.visible = false;
+
     }
     private void Update()
     {

@@ -124,3 +124,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healAmount: 1
   timeBeforeCollectable: 0.5
+  audioClip: {fileID: 5595978720721405330, guid: e14d2e41c661c38419f146decc551d8f, type: 3}

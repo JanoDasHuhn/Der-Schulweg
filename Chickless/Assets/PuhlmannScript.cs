@@ -14,4 +14,11 @@ public class PuhlmannScript : MonoBehaviour
         }
         
     }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.tag == "Player")
+        {
+            sound.Stop();
+        }
+    }
 }

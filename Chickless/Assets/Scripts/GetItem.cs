@@ -17,7 +17,7 @@ public class GetItem : MonoBehaviour
     private void Start()
 
     {
-        zgCounter.text = Zeugnisse.zeugnisse + "/5";
+        zgCounter.text = Zeugnisse.zeugnisse + "/3";
         if(Zeugnisse.zeugnisse >= zeugnisseAlready)
         {
             Destroy(gameObject);
@@ -31,7 +31,7 @@ public class GetItem : MonoBehaviour
         {
             Zeugnisse.addZeug();
             print(Zeugnisse.zeugnisse);
-            zgCounter.text = Zeugnisse.zeugnisse + "/5";
+            zgCounter.text = Zeugnisse.zeugnisse + "/3";
             if(Zeugnisse.zeugnisse == 3)
             {
                 SceneManager.LoadScene("WinScreen");

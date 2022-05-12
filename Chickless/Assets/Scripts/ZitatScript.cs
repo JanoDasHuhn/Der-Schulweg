@@ -13,6 +13,8 @@ public class ZitatScript : MonoBehaviour
     {
         int number = Random.Range(0, zitate.Length);
         text.text = zitate[number];
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
 
      
     }

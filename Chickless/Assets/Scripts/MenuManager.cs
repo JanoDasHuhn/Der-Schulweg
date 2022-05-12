@@ -12,6 +12,9 @@ public class MenuManager : MonoBehaviour
     public void onStart()
     {
         SceneManager.LoadScene(nextScene);
+        Zeugnisse.zeugnisse = 0;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
 

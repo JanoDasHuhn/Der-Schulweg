@@ -7,6 +7,7 @@ public class Medkit : MonoBehaviour
     public int healAmount = 1;
     public float timeBeforeCollectable = 0.5f;
     private bool _isCollectable = false;
+    public AudioSource audioClip;
 
     void Start()
     {
@@ -22,6 +23,7 @@ public class Medkit : MonoBehaviour
         if (other.CompareTag("Player") && _isCollectable)
         {
             PlayerHealthController.instance.HealPlayer(healAmount);
+            audioClip.Play();
             Destroy(gameObject);
         }
     }
